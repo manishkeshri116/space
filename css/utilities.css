@@ -1,0 +1,33 @@
+.container{
+    width: 1460px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.btn{
+   padding: 8px 30px;
+    border: 2px solid transparent;
+    border-radius:50px;
+    outline: none;
+    cursor: pointer;
+    font-size:18px ;
+    transition: all 0.5s ease-in-out;
+
+}
+.btn-primary{
+    color: black;
+    background-color: white;
+}
+.btn-primary:hover{
+    background: transparent;
+    color: rgb(240, 240, 240);
+    border-color:rgb(240, 240, 240) ;
+}
+.btn-secondary{
+    background: transparent;
+    color: white;
+    border-color: white;
+}
+.btn-secondary:hover{
+    background: white;
+    color: black;
+}
